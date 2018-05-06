@@ -1,0 +1,136 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    margin: 0px;
+    text-align: center;
+    background-color: #efefef;
+}
+
+* {
+    box-sizing: inherit;
+    font-family: inherit;
+    margin: inherit;
+}
+
+h1 {
+    padding: 16px 0px;
+    background-color: #4484ce;
+    color: #f9cf00;
+    font-size: 3rem;
+}
+
+main {
+    margin: 0px auto;
+    padding: 16px;
+    color: #f19f4d;
+}
+
+h2 {
+    margin-bottom: 16px;
+}
+
+footer {
+    padding: 16px 0px;
+    background-color: #d9d9d9;
+    color: #f19f4d;
+}
+
+a {
+    color: #4484ce;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f9cf00;
+}
+
+/* COLOR BOXES STYLE */
+.colors{
+    height: 5rem;
+    width: 21rem;
+    margin-bottom: 16px;
+}
+
+.color-box {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid #d9d9d9;
+    margin: 0px;
+}
+
+.color-box:hover {
+    cursor: pointer;
+}
+
+.crimson {
+    background-color: crimson;
+}
+.orange-red {
+    background-color: orangered;
+}
+.aqua {
+    background-color: aqua;
+}
+.yellow-green {
+    background-color: yellowgreen;
+}
+
+/* FILL BOXES STYLE */
+.boxes {
+    position: relative;
+    display: inline-block;
+    width: 25rem;
+    height: 25rem;
+}
+
+.box {
+    display: inline-block;
+    position: absolute;
+    width: 8rem;
+    height: 8rem;
+    top: 8rem;
+    left: 8rem;
+    border: 1px #d9d9d9;
+}
+
+.box:hover {
+    background-color: rgba(250, 250, 250, 0.4);
+}
+
+.top {
+    top: 0px;
+    bottom: 16rem;
+}
+
+.bottom {
+    bottom: 0px;
+    top: 16rem;
+}
+
+.left {
+    left: 0px;
+    right: 16rem;
+    margin: 0px;
+}
+
+.right {
+    right: 0px;
+    left: 16rem;
+    margin: 0px;
+}
+
+.left,
+.right {
+	border-left-style: solid;
+	border-right-style: solid;
+}
+
+.top,
+.bottom {
+	border-top-style: solid;
+	border-bottom-style: solid;
+}
